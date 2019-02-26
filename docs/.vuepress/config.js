@@ -5,7 +5,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: `/favicon.ico` }]
     ],
-    base: '/blog/',
+    base: '/',
     repo: 'https://github.com/mornyang',
     dest: './docs/.vuepress/dist',
     ga: '',
