@@ -3,7 +3,7 @@ module.exports = {
     title: 'HOME', 
     description: `vuepress blog`,
     head: [
-        ['link', { rel: 'icon', href: `/favicon.ico` }]
+        ['link', { rel: 'icon', href: `/blog.ico` }]
     ],
     base: '/blog/',
     repo: 'https://github.com/mornyang',
@@ -12,7 +12,7 @@ module.exports = {
     serviceWorker: true,
     evergreen: true,
     themeConfig: {
-        background: `/img/`,
+        background: `/img/brand.jpg`,
         github: 'mornyang',
         logo: '/img/avatar.jpg',
         accentColor: '#ac3e40',
@@ -30,10 +30,10 @@ module.exports = {
         },
         nav: [
             {text: 'Blog', link: '/blog/', root: true},
+            {text: 'Tags', link: '/tags/', tags: true},
             {text: 'About', link: '/about/'},
-            {text: 'CNBLOG', link: 'https://www.cnblogs.com/morn-yang/'},
             {text: 'Github', link: 'https://github.com/mornyang'},
-            {text: 'TAGS', link: '/tags/', tags: true},
+            {text: 'CNBLOG', link: 'https://www.cnblogs.com/morn-yang/'},
         ]
     },
     markdown: {
