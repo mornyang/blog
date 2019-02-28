@@ -1,16 +1,16 @@
 ---
-title: hello
-date: '2018-08-04 16:46:31'
-tag: ['js', 'vue']
+title: 第一篇vuepress博客
+date: '2019-02-28 9:31:44'
+tag: ['vuepress', 'github']
 meta:
   -
     name: description
-    content: null
+    content: 记录下搭建vuepress blog的过程
   -
     name: keywords
-    content: null
+    content: ['vuepress', 'github', 'blog']
 ---
-## hello world!
+## 记录下搭建vuepress blog的过程
 <!-- more -->
 
 | Tables        | Are           | Cool  |
