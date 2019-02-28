@@ -20,11 +20,12 @@ module.exports = {
         date_format: 'yyyy-MM-dd HH:mm:ss',
         tags: true,
         comment: {
-            clientID: '',
-            clientSecret: '',
-            repo: '',  // blog of repo name
-            owner: '',  // github of name
-            admin: '', // github of name
+            clientID: '0e5e1fe5b0b7a829243f',
+            clientSecret: '6ad30336be47d5037611cb71cfcf02293898cfd9',
+            repo: 'blog',  // blog of repo name
+            owner: 'mornyang',  // github of name
+            admin: 'mornyang', // github of name
+            perPage: 5,
             distractionFreeMode: false
         },
         nav: [
